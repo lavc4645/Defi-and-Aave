@@ -1,9 +1,9 @@
 const { getNamedAccounts, ethers } = require("hardhat");
 
-const AMOUNT = ethers.utils.parseEther("0.02");
+const AMOUNT = ethers.utils.parseEther("4000");
 
 const getWeth = async () => {
-  const { deployer } = await getNamedAccounts();
+  const { deployer } = await getNamedAccounts();    // Need to know which account is it?
   console.log("Deployer:",deployer);
 
   /**
@@ -19,6 +19,7 @@ const getWeth = async () => {
 
   const tx = await iWeth.deposit({ value: AMOUNT });
   await tx.wait(1);
+  // console.log("iWeth\n",await iWeth.functions);
   const wethBalance = await iWeth.balanceOf(deployer);
   console.log(`Got ${wethBalance.toString()} WETH`);
 };

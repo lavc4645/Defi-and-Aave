@@ -1,12 +1,12 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "/home/lav/Documents/Backuop/BlockChain/Projects/Defi and Aave/contracts/interfaces/IWeth.sol": {
-      "lastModificationDate": 1659450070168,
-      "contentHash": "a3145754c13aa91bf3cd8c701c623357",
-      "sourceName": "contracts/interfaces/IWeth.sol",
+    "/Users/rockstud/Projects/BlockChain/DEFI/Defi-and-Aave/contracts/interfaces/IERC20.sol": {
+      "lastModificationDate": 1659852534788,
+      "contentHash": "1a6ed08feb1eca1cded999d1e4c0989d",
+      "sourceName": "contracts/interfaces/IERC20.sol",
       "solcConfig": {
-        "version": "0.4.19",
+        "version": "0.6.12",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -37,14 +37,14 @@
       },
       "imports": [],
       "versionPragmas": [
-        "^0.4.19"
+        "^0.6.6"
       ],
       "artifacts": [
-        "IWeth"
+        "IERC20"
       ]
     },
-    "/home/lav/Documents/Backuop/BlockChain/Projects/Defi and Aave/contracts/interfaces/ILendingPool.sol": {
-      "lastModificationDate": 1659613635386,
+    "/Users/rockstud/Projects/BlockChain/DEFI/Defi-and-Aave/contracts/interfaces/ILendingPool.sol": {
+      "lastModificationDate": 1659852534789,
       "contentHash": "a7d1b605743494a6d8c09f9430ed671e",
       "sourceName": "contracts/interfaces/ILendingPool.sol",
       "solcConfig": {
@@ -88,8 +88,8 @@
         "ILendingPool"
       ]
     },
-    "/home/lav/Documents/Backuop/BlockChain/Projects/Defi and Aave/node_modules/@aave/protocol-v2/contracts/interfaces/ILendingPoolAddressesProvider.sol": {
-      "lastModificationDate": 1659613548383,
+    "/Users/rockstud/Projects/BlockChain/DEFI/Defi-and-Aave/node_modules/@aave/protocol-v2/contracts/interfaces/ILendingPoolAddressesProvider.sol": {
+      "lastModificationDate": 1659853906241,
       "contentHash": "a487bfd067ce6e71ddc7e9cc91302bae",
       "sourceName": "@aave/protocol-v2/contracts/interfaces/ILendingPoolAddressesProvider.sol",
       "solcConfig": {
@@ -130,8 +130,8 @@
         "ILendingPoolAddressesProvider"
       ]
     },
-    "/home/lav/Documents/Backuop/BlockChain/Projects/Defi and Aave/node_modules/@aave/protocol-v2/contracts/protocol/libraries/types/DataTypes.sol": {
-      "lastModificationDate": 1659613548415,
+    "/Users/rockstud/Projects/BlockChain/DEFI/Defi-and-Aave/node_modules/@aave/protocol-v2/contracts/protocol/libraries/types/DataTypes.sol": {
+      "lastModificationDate": 1659853910741,
       "contentHash": "2127b8d36674faba96bc703f72164a1a",
       "sourceName": "@aave/protocol-v2/contracts/protocol/libraries/types/DataTypes.sol",
       "solcConfig": {
@@ -172,10 +172,52 @@
         "DataTypes"
       ]
     },
-    "/home/lav/Documents/Backuop/BlockChain/Projects/Defi and Aave/contracts/interfaces/IERC20.sol": {
-      "lastModificationDate": 1659617827176,
-      "contentHash": "1a6ed08feb1eca1cded999d1e4c0989d",
-      "sourceName": "contracts/interfaces/IERC20.sol",
+    "/Users/rockstud/Projects/BlockChain/DEFI/Defi-and-Aave/contracts/interfaces/IWeth.sol": {
+      "lastModificationDate": 1659852534789,
+      "contentHash": "a3145754c13aa91bf3cd8c701c623357",
+      "sourceName": "contracts/interfaces/IWeth.sol",
+      "solcConfig": {
+        "version": "0.4.19",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.4.19"
+      ],
+      "artifacts": [
+        "IWeth"
+      ]
+    },
+    "/Users/rockstud/Projects/BlockChain/DEFI/Defi-and-Aave/contracts/interfaces/AggregratorV3Interface.sol": {
+      "lastModificationDate": 1659891964245,
+      "contentHash": "45292448700a10a8e06072246c8b19f0",
+      "sourceName": "contracts/interfaces/AggregratorV3Interface.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
@@ -208,10 +250,10 @@
       },
       "imports": [],
       "versionPragmas": [
-        "^0.6.6"
+        "^0.6.0"
       ],
       "artifacts": [
-        "IERC20"
+        "AggregatorV3Interface"
       ]
     }
   }
